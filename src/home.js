@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-const home = ({ visits, setVisits }) => {
+const Home = ({ visits, setVisits }) => {
     useEffect(() => {
         setVisits(previousvisits => previousvisits + 1);
     }, [setVisits]);
@@ -20,4 +20,4 @@ const home = ({ visits, setVisits }) => {
         </div>
     );
 }
-export default home;
+export default Home;
